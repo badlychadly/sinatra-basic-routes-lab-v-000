@@ -15,4 +15,9 @@ class App < Sinatra::Base
     "My hometown is Theed"
   end
 
+
+  get '/favorite-song' do 
+    "My favorite song is I Wish it Would Rain"
+  end
+
 end
